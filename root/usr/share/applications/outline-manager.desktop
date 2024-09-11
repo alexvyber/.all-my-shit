@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=outline
+GenericName=Outline Manager, Outline
+Comment=Outline
+StartupNotify=true
+Exec=/home/alexs/apps/Outline-Manager.AppImage
+Icon=
+Categories=

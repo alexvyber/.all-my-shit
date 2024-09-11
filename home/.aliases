@@ -110,7 +110,7 @@ alias capdd='cat package.json | jq ".devDependencies"'
 # --
 alias readme="glow -p README.md"
 alias myip="curl ifconfig.me"
-alias btm="btm --color nord-light"
+# alias btm="btm --color nord-light"
 
 alias rip="rip --graveyard $HOME/tmp/.graveyard"
 
@@ -148,7 +148,7 @@ alias vlll="vlc --rate 1.75"
 
 alias time-on="sudo systemctl start systemd-timesyncd"
 alias time-off="sudo systemctl stop systemd-timesyncd"
-alias bro.today="bun run $HOME/@alexvyber/days/src/index.ts"
+alias bro.today="bun run $HOME/@alexvyber/_repos/1000days-cli/src/index.ts"
 alias vl.="vlc --rate 2.0 ."
 
 alias ux="unrar x"

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=apidog
+GenericName=Api Testing shit, apidog
+Comment=Fast, feature-rich, GPU based terminal
+StartupNotify=true
+Exec=/home/alexs/apps/apidog-2.6.11/apidog
+Icon=/home/alexs/apps/apidog-2.6.11/resources/app.asar.unpacked/dist/assets/logo.png
+Categories=

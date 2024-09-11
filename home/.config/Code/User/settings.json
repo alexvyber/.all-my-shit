@@ -1,25 +1,25 @@
 {
-  "[typescriptreact]": {
-    "editor.defaultFormatter": "vscode.typescript-language-features"
-  },
-  "tailwindCSS.experimental.classRegex": [
-    ["cvax\\(([^)]*)\\)", "[\"'`]([^\"'`]*).*?[\"'`]"],
-    ["cx\\(([^)]*)\\)", "(?:'|\"|`)([^']*)(?:'|\"|`)"]
-  ],
-  "diffEditor.ignoreTrimWhitespace": false,
-  "editor.fontFamily": "'JetBrains Mono','Droid Sans Mono', 'monospace'",
-  "editor.fontLigatures": true,
-  "editor.minimap.maxColumn": 100,
-  "editor.renderControlCharacters": false,
-  "extensions.ignoreRecommendations": true,
-  "files.saveConflictResolution": "overwriteFileOnDisk",
-  "git.openRepositoryInParentFolders": "always",
-  "security.workspace.trust.enabled": false,
-  "security.workspace.trust.startupPrompt": "never",
-  "typescript.tsdk": "/home/alexs/.local/share/fnm/node-versions/v22.5.1/installation/lib/node_modules/typescript/lib",
-  "typescript.updateImportsOnFileMove.enabled": "always",
-  "window.menuBarVisibility": "compact",
-  "workbench.colorTheme": "Atom One Light",
-  "workbench.sideBar.location": "right",
-  "workbench.statusBar.visible": true
+	"[typescriptreact]": {
+		"editor.defaultFormatter": "vscode.typescript-language-features"
+	},
+	"tailwindCSS.experimental.classRegex": [
+		["cvax\\(([^)]*)\\)", "[\"'`]([^\"'`]*).*?[\"'`]"],
+		["cx\\(([^)]*)\\)", "(?:'|\"|`)([^']*)(?:'|\"|`)"]
+	],
+	"diffEditor.ignoreTrimWhitespace": false,
+	"editor.fontFamily": "'JetBrains Mono','Droid Sans Mono', 'monospace'",
+	"editor.fontLigatures": true,
+	"editor.minimap.maxColumn": 100,
+	"editor.renderControlCharacters": false,
+	"extensions.ignoreRecommendations": true,
+	"files.saveConflictResolution": "overwriteFileOnDisk",
+	"git.openRepositoryInParentFolders": "always",
+	"security.workspace.trust.enabled": false,
+	"security.workspace.trust.startupPrompt": "never",
+	"typescript.tsdk": "/home/alexs/.local/share/fnm/node-versions/v22.5.1/installation/lib/node_modules/typescript/lib",
+	"typescript.updateImportsOnFileMove.enabled": "always",
+	"window.menuBarVisibility": "compact",
+	"workbench.colorTheme": "Atom One Light",
+	"workbench.sideBar.location": "right",
+	"workbench.statusBar.visible": true
 }
