@@ -1,0 +1,47 @@
+session_name: ros
+
+
+windows:
+- layout: d21d,264x68,0,0,0
+  options: {}
+  start_directory: $HOME/work/rosdomofon/rosdomofon-backend
+  window_name: back
+  panes:
+  - focus: 'true'
+    shell_command: npm run develop
+
+- layout: d21e,264x68,0,0,1
+  options: {}
+  start_directory: $HOME/work/rosdomofon/rosdomofon-backend
+  window_name: back
+
+
+- layout: d21f,264x68,0,0,2
+  options: {}
+  panes:
+  - focus: 'true'
+    shell_command: npm run dev
+  start_directory: $HOME/work/rosdomofon/rosdomofon-frontend
+  window_name: front
+
+- focus: 'true'
+  layout: d220,264x68,0,0,3
+  options: {}
+  start_directory: $HOME/work/rosdomofon/rosdomofon-frontend
+  window_name: front
+
+- layout: d221,264x68,0,0,4
+  options: {}
+  panes:
+  - focus: 'true'
+    shell_command: zsh
+  start_directory: $HOME/work/rosdomofon
+  window_name: root
+
+- layout: d222,264x68,0,0,5
+  options: {}
+  panes:
+  - focus: 'true'
+    shell_command: zsh
+  start_directory: $HOME/work/rosdomofon
+  window_name: root
