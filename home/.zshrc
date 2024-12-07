@@ -3,6 +3,11 @@ ZSH_THEME="theme"
 # node
 export NODE_MODULES_CACHE="$HOME/.node/cache"
 export NODE_COMPILE_CACHE="$HOME/.node/cache"
+# export JIRA_API_TOKEN=ATATT3xFfGF0BsYQig1bC7wtvCOxS4w2FFSb0GdAOtQkn7umypNQGWXT1pn88tGRhxmtvRcgHp0DClUqZ_lxvwVkOmO9GyFEmmhhHSzmKdC3xSKGhDwapRUnZtBL4FYULhWLT0fQd8pzEGvRU8ejW0OiFEgEtvu2zSHGEuejlu1tsu99NQMuw-8=6CCB50A0
+# export JIRA_AUTH_TYPE=bearer
+export JIRA_API_TOKEN=ATATT3xFfGF0GCYktjXRMbgNynhQMfO7-l4_LrwY5md04AkLSizRnEoElQuzoR-qORecs96xggddP8k0xQPTsJNRPhn0p-w2eLF5lKIbXpeHZPgLBGmo_-fMN5awWIZSOFQibq7mMhxIW2fbaHkoQtCacSlfNNZjcG3-hOJyf7HXKSN0ih2pR9A=5C3F205C
+export JIRA_AUTH_TYPE=basic
+
 
 export DISABLE_AUTO_TITLE='true'
 
@@ -327,5 +332,7 @@ fi
 #
 eval "$(zoxide init zsh)"
 
-
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+. "$HOME/.asdf/asdf.sh"
+

@@ -16,10 +16,15 @@
 	"git.openRepositoryInParentFolders": "always",
 	"security.workspace.trust.enabled": false,
 	"security.workspace.trust.startupPrompt": "never",
-	"typescript.tsdk": "/home/alexs/.local/share/fnm/node-versions/v22.5.1/installation/lib/node_modules/typescript/lib",
+	"typescript.tsdk": "/home/alexs/.local/share/fnm/node-versions/v22.6.0/installation/lib/node_modules/typescript/lib",
 	"typescript.updateImportsOnFileMove.enabled": "always",
 	"window.menuBarVisibility": "compact",
 	"workbench.colorTheme": "Atom One Light",
 	"workbench.sideBar.location": "right",
-	"workbench.statusBar.visible": true
+	"workbench.statusBar.visible": true,
+	"explorer.confirmDelete": false,
+	"gitlens.advanced.blame.customArguments": [],
+	"workbench.productIconTheme": "fluent-icons",
+	"vsicons.presets.tsOfficial": true
+	
 }

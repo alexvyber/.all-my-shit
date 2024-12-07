@@ -200,10 +200,11 @@ watch_with_zsh() {
 	watch 'echo hello | zsh -c "source /path/to/functions; my_fun"'
 }
 
-jira() {
-	branch=$(git branch | rg '\*' | choose 1)
-	# TODO: write script
-}
+# jira() {
+# 	key="AC-$(git branch | rg '\*' | choose 1 | choose --field-separator '-' 1 )"
+#   link="https://acepicks-team.atlassian.net/browse/$key"
+#   xdg-open $link
+# }
 
 # converts image file given as $1 to webp
 # optionally specify the quality as $2, defaults to 50/100
