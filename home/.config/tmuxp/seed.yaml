@@ -1,0 +1,65 @@
+session_name: seed
+windows:
+- focus: 'true'
+  layout: cabd,137x66,0,0,0
+  options: {}
+  panes:
+  - pane
+  start_directory: /home/alexs/work/acepicks/client/packages/goalserve/src/seed-db
+  window_name: zsh
+- layout: cabe,137x66,0,0,1
+  options: {}
+  panes:
+  - focus: 'true'
+    shell_command: zsh
+  start_directory: /home/alexs/work/acepicks/client/packages/goalserve/src/seed-db
+  window_name: zsh
+- layout: cabf,137x66,0,0,2
+  options: {}
+  panes:
+  - focus: 'true'
+    shell_command: zsh
+  start_directory: /home/alexs/work/acepicks/client/packages/goalserve/src/seed-db
+  window_name: zsh
+- layout: cac0,137x66,0,0,3
+  options: {}
+  panes:
+  - focus: 'true'
+    shell_command: zsh
+  start_directory: /home/alexs/work/acepicks/client/packages/goalserve/src/seed-db
+  window_name: zsh
+- layout: cac1,137x66,0,0,4
+  options: {}
+  panes:
+  - focus: 'true'
+    shell_command: zsh
+  start_directory: /home/alexs/work/acepicks/client/packages/goalserve/src/seed-db
+  window_name: zsh
+- layout: cac2,137x66,0,0,5
+  options: {}
+  panes:
+  - focus: 'true'
+    shell_command: zsh
+  start_directory: /home/alexs/work/acepicks/client/packages/goalserve/src/seed-db
+  window_name: zsh
+- layout: cac3,137x66,0,0,6
+  options: {}
+  panes:
+  - focus: 'true'
+    shell_command: zsh
+  start_directory: /home/alexs/work/acepicks/client/packages/goalserve/src/seed-db
+  window_name: zsh
+- layout: cac4,137x66,0,0,7
+  options: {}
+  panes:
+  - focus: 'true'
+    shell_command: zsh
+  start_directory: /home/alexs/work/acepicks/client/packages/goalserve/src/seed-db
+  window_name: zsh
+- layout: cac5,137x66,0,0,8
+  options: {}
+  panes:
+  - focus: 'true'
+    shell_command: zsh
+  start_directory: /home/alexs/work/acepicks/client/packages/goalserve/src/seed-db
+  window_name: zsh

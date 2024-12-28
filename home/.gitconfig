@@ -31,7 +31,7 @@
   #   %s: subject
   # my awesome git log replacement
   lol  = log --graph --pretty=format:\"%C(auto)%h %C(blue)(%cr) %C(auto)%s  %d\"
-  lor  = log --reverse --pretty=format:\"%C(auto)%h %C(green)%ah %C(blue)(%cr) %C(auto)%s  %d\"
+  lor  = log --reverse --pretty=format:\"%C(auto)%h %C(green)%ah %C(blue)(%cr) %an %C(auto)%s  %d\"
                        # pretty='format:%C(auto)%h (%s, %ad)'
   l3  = log --graph -30 --pretty=format:\"%C(auto)%h %C(blue)(%cr) %C(auto)%s  %d\"
   l4  = log --graph -40 --pretty=format:\"%C(auto)%h %C(blue)(%cr) %C(auto)%s  %d\"
@@ -87,6 +87,6 @@
 	process = git-lfs filter-process
 	required = true
 	clean = git-lfs clean -- %f
-  
+
 [color]
 	ui = true

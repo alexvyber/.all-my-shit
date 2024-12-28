@@ -3,45 +3,53 @@ session_name: acepicks
 windows:
   - layout: cabe,137x66,0,0,1
     options: {}
-    start_directory: $HOME/work/acepicks/api
-    window_name: api
+    start_directory: $HOME/work/acepicks/client
+    panes:
+    - focus: 'true'
+      shell_command: code .
+    window_name: client
 
   - layout: cac0,137x66,0,0,3
     options: {}
-    start_directory: $HOME/work/acepicks/cms
-    window_name: cms
+    start_directory: $HOME/work/acepicks/client
+    window_name: client
 
   - layout: cac2,137x66,0,0,5
     options: {}
-    start_directory: $HOME/work/acepicks/web
+    start_directory: $HOME/work/acepicks/client/apps/web
+    window_name: web
+
+  - layout: cac4,137x66,0,0,7
+    options: {}
+    start_directory: $HOME/work/acepicks/client/apps/web
     window_name: web
 
 
   - focus: 'true'
-    :layout: cac3,137x66,0,0,6
+    layout: cac3,137x66,0,0,6
     options: {}
-    start_directory: $HOME/work/acepicks
-    window_name: root
+    start_directory: $HOME/work/acepicks/client/packages
+    window_name: packages
 
-  - layout: cac4,137x66,0,0,7
+  - focus: 'true'
+    layout: cac3,137x66,0,0,6
     options: {}
-    start_directory: $HOME/work/acepicks
-    window_name: root
-
+    start_directory: $HOME/work/acepicks/client/packages
+    window_name: packages
 
   - layout: cabd,137x66,0,0,0
     options: {}
     panes:
       - focus: 'true'
-        shell_command: sleep 5 && pnpm dev
-    start_directory: $HOME/work/acepicks/api
-    window_name: api
+        shell_command: pnpm dev
+    start_directory: $HOME/work/acepicks/client
+    window_name: client
 
   - layout: cabf,137x66,0,0,2
     options: {}
     panes:
       - focus: 'true'
-        shell_command: sleep 5 && yarn dev
+        shell_command: yarn dev
     start_directory: $HOME/work/acepicks/cms
     window_name: cms
 
@@ -49,19 +57,19 @@ windows:
     options: {}
     panes:
       - focus: 'true'
-        shell_command: pnpm dev
-    start_directory: $HOME/work/acepicks/web
-    window_name: web
+        shell_command: p stripe listen --forward-to http://localhost:3000/api/billing/webhook 
+    start_directory: $HOME/work/acepicks/client
+    window_name: stripe
 
 
-  - layout: 1ce2,137x66,0,0[137x33,0,0,9,137x32,0,34,12]
-    options: {}
-    panes:
-      - shell_command:
-          - cd $HOME/work/acepicks/api
-          - docker compose up
-      - focus: 'true'
-        shell_command:
-          - cd $HOME/work/acepicks/cms
-          - docker run -it --rm -p 5070:7700 getmeili/meilisearch:v1.9
-    window_name: db
+  # - layout: 1ce2,137x66,0,0[137x33,0,0,9,137x32,0,34,12]
+  #   options: {}
+  #   panes:
+  #     - shell_command:
+  #         - cd $HOME/work/acepicks/api
+  #         - docker compose up
+  #     - focus: 'true'
+  #       shell_command:
+  #         - cd $HOME/work/acepicks/cms
+  #         - docker run -it --rm -p 5070:7700 getmeili/meilisearch:v1.9
+  #   window_name: db

@@ -156,3 +156,6 @@ alias count.done='node -e "console.log($(fd -e md |wcl) - 1)"'
 alias count.expect='node -e "console.log(Math.ceil((new Date().getTime() - new Date(\"2022-06-01\").getTime()) / 24 / 60 / 60 / 1000) )"'
 alias count.diff='node -e "console.log(Math.ceil((new Date().getTime() - new Date(\"2022-06-01\").getTime()) / 24 / 60 / 60 / 1000) - $(fd -e md |wcl) + 1 )"'
 alias rippwd='rip ../$(pwd | tr -d "\r\n" | rev | cut -d"/" -f1 | rev) && cd ../'
+
+alias stopwatch="bro ~/@alexvyber/clock/clock.ts"
+alias gbl="git branch -l"
