@@ -13,6 +13,8 @@ windows:
     options: {}
     start_directory: $HOME/work/acepicks/client
     window_name: client
+    start_directory: $HOME/work/acepicks/client
+    window_name: client
 
   - layout: cac2,137x66,0,0,5
     options: {}

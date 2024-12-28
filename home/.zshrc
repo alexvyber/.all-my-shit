@@ -334,5 +334,9 @@ eval "$(zoxide init zsh)"
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
+# . /opt/homebrew/opt/asdf/libexec/asdf.sh
+
 . "$HOME/.asdf/asdf.sh"
 
+export DENO_INSTALL="/Users/alexs/.deno"
+export PATH="/Users/alexs/.deno/bin:$PATH"
